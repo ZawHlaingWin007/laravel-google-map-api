@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+}
+
+.nearby-shops {
+    cursor: pointer;
+    background-image: url("https://developers.google.com/static/maps/images/landing/hero_maps_static_api_480.png");
+}
+
+.shop-card .card-text {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
